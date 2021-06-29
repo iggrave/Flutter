@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_flipkart/Home_Page.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,12 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        home: Material(
-      child: Center(
-        child: Container(
-          child: Text('Flutter Project'),
-        ),
-      ),
-    ));
+        home: HomePage(),
+         );
   }
 }
