@@ -9,14 +9,14 @@ class HomePage extends StatelessWidget {
     final String name = "Flutter";
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flipkart'),
+        title: Text('Flipkart'), // App name
       ),
       body: Center(
         child: Container(
           child: Text('$name Project of $days days'),
         ),
       ),
-      drawer: Drawer(),
+      drawer: Drawer(),  // navigation drawer (menu)
     );
   }
 }
